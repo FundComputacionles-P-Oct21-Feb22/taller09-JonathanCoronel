@@ -1,0 +1,30 @@
+//Problema 02
+
+1.  Inicio
+2. (numeros(4)(4),i[1-n])
+3. fila, i[0-n]
+4. columna, i[0-n]
+5. numeros[0][0] <-- 20
+6. numeros[0][1] <-- 30
+7. numeros[0][2] <-- 40
+8. numeros[0][3] <-- 50
+9. numeros[1][0] <-- 2
+10. numeros[1][1] <-- 3
+11. numeros[1][2] <-- 4
+12. numeros[1][3] <-- 5
+13. numeros[2][0] <-- 200
+14. numeros[2][1] <-- 300
+15. numeros[2][2] <-- 400
+16. numeros[2][3] <-- 500
+17. numeros[3][0] <-- 10
+18. numeros[3][1] <-- 11
+19. numeros[3][2] <-- 12
+20. numeros[3][3] <-- 14
+21. para(fila<-- 0, fila < 4, 1 ) haga
+22.     para(columna<--0, columna < 4, 1) haga 
+23.         si(fila<columna) entonces
+24.             Escriba numero[fila][columna]
+25.         Fin_Si
+26.     Fin_Para
+27. Fin_Para
+28. Fin

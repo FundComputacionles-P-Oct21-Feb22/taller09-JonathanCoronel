@@ -1,0 +1,22 @@
+//Problema 04
+
+1.  Inicio
+2. (vendedores(2),x(40)[{a-z}, {A-Z}, BS])
+3. vendedores[0] <-- "Jerry Ponce"
+4. vendedores[1] <-- "Gabriela Lewis"
+5. (ventas(2)(5),d[1-n])
+6. fila, i[0-n]
+7. indice, i[0-n]
+8. suma, d[0-n]<-- 0
+9. columna, i[0-n]
+10. Para(fila<-- 0, fila < 2, 1 ) haga
+11.     Para(columna<--0, columna < 4, 1) haga 
+12.	Escribir "Ingrese las ventas del Vendedor(a)" + vendedores[fila]
+13. 	suma <-- suma + notas[fila][columna]	
+14.     Fin_Para
+15. Fin_Para
+16. Para(indice<-- 0, fila < 2, 1 ) haga
+17.	Escribir "Vendedor(a) " + vendedores[indice] 
+18. Fin_Para
+19. Escribir "Han realizado un total de "+ suma +"en ventas."
+20. Fin
