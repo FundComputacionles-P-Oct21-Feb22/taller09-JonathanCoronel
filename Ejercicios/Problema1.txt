@@ -20,9 +20,9 @@
 18. numeros[3][1] <-- 11
 19. numeros[3][2] <-- 12
 20. numeros[3][3] <-- 14
-21. para(fila<-- 0, fila < 4, 1 ) haga
-22.     para(columna<--0, columna < 4, 1) haga 
-23.         si(fila>columna) entonces
+21. Para(fila<-- 0, fila < 4, 1 ) haga
+22.     Para(columna<--0, columna < 4, 1) haga 
+23.         Si(fila>columna) entonces
 24.             Escriba numero[fila][columna]
 25.         Fin_Si
 26.     Fin_Para
